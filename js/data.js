@@ -24,183 +24,34 @@ export const featuredProducts =
       {
         cardTitle: "Cantilever chair",
         cardDesc: "Code - Y523201",
-        cardPrice: "$42.00",
+        cardPrice: 42,
         cardImg: "./images/featured_img_1.svg",
+        id:1,
       },
       {
         cardTitle: "Cantilever chair",
         cardDesc: "Code - Y523201",
-        cardPrice: "$42.00",
+        cardPrice: 35,
         cardImg: "./images/featured_img_2.svg",
+        id:2,
       },
       {
         cardTitle: "Cantilever chair",
         cardDesc: "Code - Y523201",
-        cardPrice: "$42.00",
+        cardPrice: 55,
         cardImg: "./images/featured_img_3.svg",
+        id:3,
       },
       {
         cardTitle: "Cantilever chair",
         cardDesc: "Code - Y523201",
-        cardPrice: "$42.00",
+        cardPrice: 65,
         cardImg: "./images/featured_img_4.svg",
+        id:4,
       },
     ],
   }
 
-
-// export const leatestProducts = 
-//   {
-//     title:"Leatest Products",
-//     newArrival: [
-//       {
-//         img:"./images/lasteat_img_1.svg",
-//         name: "Comfort Handy Craft",
-//         price: "$42.00",
-//         sale:"$65.00"
-//       },
-//       {
-//         img:"./images/lasteat_img_5.svg",
-//         name: "Comfort Handy Craft",
-//         price: "$42.00",
-//         sale:"$65.00"
-//       },
-//       {
-//         img:"./images/lasteat_img_3.svg",
-//         name: "Comfort Handy Craft",
-//         price: "$42.00",
-//         sale:"$65.00"
-//       },
-//       {
-//         img:"./images/lasteat_img_4.svg",name: "Comfort Handy Craft",
-//         price: "$42.00",
-//         sale:"$65.00"
-//       },
-//       {
-//         img:"./images/lasteat_img_5.svg",
-//         name: "Comfort Handy Craft",
-//         price: "$42.00",
-//         sale:"$65.00"
-//       },
-//       {
-//         img:"./images/lasteat_img_6.svg",
-//         name: "Comfort Handy Craft",
-//         price: "$42.00",
-//         sale:"$65.00"
-//       },
-//     ],
-//     bestSeller: [
-//         {
-//           img:"./images/lasteat_img_1.svg",
-//           name: "Comfort Handy Craft",
-//           price: "$42.00",
-//           sale:"$65.00"
-//         },
-//         {
-//           img:"./images/lasteat_img_5.svg",
-//           name: "Comfort Handy Craft",
-//           price: "$42.00",
-//           sale:"$65.00"
-//         },
-//         {
-//           img:"./images/lasteat_img_3.svg",
-//           name: "Comfort Handy Craft",
-//           price: "$42.00",
-//           sale:"$65.00"
-//         },
-//         {
-//           img:"./images/lasteat_img_4.svg",name: "Comfort Handy Craft",
-//           price: "$42.00",
-//           sale:"$65.00"
-//         },
-//         {
-//           img:"./images/lasteat_img_5.svg",
-//           name: "Comfort Handy Craft",
-//           price: "$42.00",
-//           sale:"$65.00"
-//         },
-//         {
-//           img:"./images/lasteat_img_6.svg",
-//           name: "Comfort Handy Craft",
-//           price: "$42.00",
-//           sale:"$65.00"
-//         },
-//       ],
-//     featured: [
-//         {
-//           img:"./images/lasteat_img_1.svg",
-//           name: "Comfort Handy Craft",
-//           price: "$42.00",
-//           sale:"$65.00"
-//         },
-//         {
-//           img:"./images/lasteat_img_5.svg",
-//           name: "Comfort Handy Craft",
-//           price: "$42.00",
-//           sale:"$65.00"
-//         },
-//         {
-//           img:"./images/lasteat_img_3.svg",
-//           name: "Comfort Handy Craft",
-//           price: "$42.00",
-//           sale:"$65.00"
-//         },
-//         {
-//           img:"./images/lasteat_img_4.svg",name: "Comfort Handy Craft",
-//           price: "$42.00",
-//           sale:"$65.00"
-//         },
-//         {
-//           img:"./images/lasteat_img_5.svg",
-//           name: "Comfort Handy Craft",
-//           price: "$42.00",
-//           sale:"$65.00"
-//         },
-//         {
-//           img:"./images/lasteat_img_6.svg",
-//           name: "Comfort Handy Craft",
-//           price: "$42.00",
-//           sale:"$65.00"
-//         },
-//       ],
-//     specialOffer: [
-//         {
-//           img:"./images/lasteat_img_1.svg",
-//           name: "Comfort Handy Craft",
-//           price: "$42.00",
-//           sale:"$65.00"
-//         },
-//         {
-//           img:"./images/lasteat_img_5.svg",
-//           name: "Comfort Handy Craft",
-//           price: "$42.00",
-//           sale:"$65.00"
-//         },
-//         {
-//           img:"./images/lasteat_img_3.svg",
-//           name: "Comfort Handy Craft",
-//           price: "$42.00",
-//           sale:"$65.00"
-//         },
-//         {
-//           img:"./images/lasteat_img_4.svg",name: "Comfort Handy Craft",
-//           price: "$42.00",
-//           sale:"$65.00"
-//         },
-//         {
-//           img:"./images/lasteat_img_4.svg",
-//           name: "Comfort Handy Craft",
-//           price: "$42.00",
-//           sale:"$65.00"
-//         },
-//         {
-//           img:"./images/lasteat_img_1.svg",
-//           name: "Comfort Handy Craft",
-//           price: "$42.00",
-//           sale:"$65.00"
-//         },
-//       ],
-//   }
 
 // Tasodifiy nomlar va rasmlar ro'yxatini yaratish
 const randomNames = [
@@ -221,7 +72,6 @@ const randomNames = [
     "./images/lasteat_img_6.svg"
   ];
   
-  // Tasodifiy ma'lumotlarni olish funksiyasi
   function getRandomItem(arr) {
     return arr[Math.floor(Math.random() * arr.length)];
   }
